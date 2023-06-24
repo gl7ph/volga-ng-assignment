@@ -1,0 +1,7 @@
+{
+  "name": "volga-ng-assignment",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
