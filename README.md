@@ -15,12 +15,10 @@ Both perform the same functions but are calibrated for different viewport sizes.
 
 On mobile devices, the keyboard type will be different based on the type of input focused.
 
-Example:
+Example: A numpad will be shown for phone input fields.
 
 ![Numpad Screenshot](https://github.com/gl7ph/volga-ng-assignment/blob/master/src/assets/images/mobile-numpad-screenshot.jpg "A numpad will be shown for phone input fields.
 ")
-
-A numpad will be shown for phone input fields.
 
 ## Installation
 Prerequisites to install this project locally:
