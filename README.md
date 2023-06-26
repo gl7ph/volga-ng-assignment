@@ -11,9 +11,9 @@ Both perform the same functions but are calibrated for different viewport sizes.
 
 ## Installation
 Prerequisites to install this project locally:
--Node & NPM
--Git CLI
--IDE of your choice
+- Node & NPM
+- Git CLI
+- IDE of your choice
 
 ### Clone the repo
 
@@ -24,10 +24,10 @@ git clone https://github.com/gl7ph/volga-ng-assignment.git
 ### Install Dependencies
 
 The following console command will install the following major libraries and it's dependencies:
--Angular & ng CLI
--Ionic Framework & Ionic CLI
--Ng Material
--Ng CDK
+- Angular & ng CLI
+- Ionic Framework & Ionic CLI
+- Ng Material
+- Ng CDK
 
 Navigate to your clone repo directory and run the following command:
 
