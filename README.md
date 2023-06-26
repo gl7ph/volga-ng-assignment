@@ -4,14 +4,23 @@ This is an SPA (Single Page Application) with a dynamic table implementing basic
 
 This is solely for the evaluation purposes of Volga Infotech for an available engineering position.
 
+- Angular v16.0.0
+- Ionic Framework v7.0.0
+- Angular Material v16.1.2
+
 ## Functionality
 
 There is both a desktop and mobile UI available for perusal.
 Both perform the same functions but are calibrated for different viewport sizes.
 
-- Angular v16.0.0
-- Ionic Framework v7.0.0
-- Angular Material v16.1.2
+On mobile devices, the keyboard type will be different based on the type of input focused.
+
+Example:
+
+![Numpad Screenshot](https://github.com/gl7ph/volga-ng-assignment/blob/master/src/assets/images/mobile-numpad-screenshot.jpg "A numpad will be shown for phone input fields.
+")
+
+A numpad will be shown for phone input fields.
 
 ## Installation
 Prerequisites to install this project locally:
