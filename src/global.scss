@@ -24,3 +24,20 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+.main-list {
+  background: none;
+}
+
+.main-list > ion-item {
+  --background: none;
+}
+
+@media screen and (min-width: 768px) {
+
+  .personnel-modal {
+    --width: 60vw;
+    --height: 60vh;
+  }
+
+}
