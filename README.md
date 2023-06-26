@@ -13,7 +13,7 @@ This is solely for the evaluation purposes of Volga Infotech for an available en
 There is both a desktop and mobile UI available for perusal.
 Both perform the same functions but are calibrated for different viewport sizes.
 
-On mobile devices, the keyboard type will be different based on the type of input focused.
+On mobile devices, the keyboard type will vary based on the type of input focused.
 
 Example: A numpad will be shown for phone input fields.
 
