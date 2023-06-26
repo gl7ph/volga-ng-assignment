@@ -1,0 +1,14 @@
+::ng-deep ion-input > label > .label-text-wrapper > .label-text {
+  color: #3880ff;
+}
+
+::ng-deep ion-textarea > label > .label-text-wrapper > .label-text {
+  color: #3880ff;
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin: 1em;
+}

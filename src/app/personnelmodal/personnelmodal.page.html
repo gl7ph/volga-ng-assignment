@@ -1,0 +1,97 @@
+<ion-header>
+  <ion-toolbar color="primary" class="ion-text-center">
+    
+    <ng-container *ngIf="isReadOnly">
+      <ion-title>Personnel Details</ion-title>
+    </ng-container>
+
+    <ng-container *ngIf="!isReadOnly">
+      <ion-title>Create Personnel</ion-title>
+    </ng-container>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  <ng-container *ngIf="!isMobile">
+
+    <div class="content-wrapper">
+
+      <div class="left-wrapper">
+
+        <ion-list>
+          <ion-item lines="full">
+            <ion-input color="primary" label="Name" labelPlacement="floating" [readonly]="isReadOnly" [(ngModel)]="personnel.name" pattern="text" type="text"></ion-input>
+          </ion-item>
+          <ion-item lines="full">
+            <ion-input color="primary" label="Email" labelPlacement="floating" [readonly]="isReadOnly" [(ngModel)]="personnel.email" pattern="email" type="email"></ion-input>
+          </ion-item>
+          <ion-item lines="full">
+            <ion-input color="primary" label="Phone" labelPlacement="floating" [readonly]="isReadOnly" [(ngModel)]="personnel.phone" type="tel"></ion-input>
+          </ion-item>
+        </ion-list>
+
+      </div>
+
+      <div class="right-wrapper">
+
+        <ion-list>
+          <ion-item lines="full">
+            <ion-textarea rows="5" autogrow color="primary" label="Address" labelPlacement="floating" [readonly]="isReadOnly" [(ngModel)]="personnel.address" pattern="text" type="text"></ion-textarea>
+          </ion-item>
+        </ion-list>
+
+      </div>
+
+    </div>
+
+  </ng-container>
+
+  <ng-container *ngIf="isMobile">
+
+    <ion-list>
+      <ion-item lines="full">
+        <ion-input color="primary" label="Name" labelPlacement="floating" [readonly]="isReadOnly" [(ngModel)]="personnel.name" pattern="text" type="text"></ion-input>
+      </ion-item>
+      <ion-item lines="full">
+        <ion-input color="primary" label="Email" labelPlacement="floating" [readonly]="isReadOnly" [(ngModel)]="personnel.email" pattern="email" type="email"></ion-input>
+      </ion-item>
+      <ion-item lines="full">
+        <ion-input color="primary" label="Phone" labelPlacement="floating" [readonly]="isReadOnly" [(ngModel)]="personnel.phone" pattern="tel" type="tel"></ion-input>
+      </ion-item>
+      <ion-item lines="full">
+        <ion-textarea rows="5" autogrow color="primary" label="Address" labelPlacement="floating" [readonly]="isReadOnly" [(ngModel)]="personnel.address" pattern="text" type="text"></ion-textarea>
+      </ion-item>
+    </ion-list>
+
+  </ng-container>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+
+    <ng-container *ngIf="isReadOnly">
+
+      <ion-buttons slot="end">
+
+        <ion-button (click)="close()">Close</ion-button>
+  
+      </ion-buttons>
+
+    </ng-container>
+
+    <ng-container *ngIf="!isReadOnly">
+
+      <ion-buttons slot="end">
+
+        <ion-button (click)="cancel()">Cancel</ion-button>
+        <ion-button color="primary" (click)="create()">Create</ion-button>
+  
+      </ion-buttons>
+
+    </ng-container>
+
+  </ion-toolbar>
+</ion-footer>
