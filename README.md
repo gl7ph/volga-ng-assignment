@@ -50,13 +50,13 @@ npm install
 To serve the application locally:
 
 ```bash
-npm start
+npm run start
 ```
 
 To compile a build:
 
 ```bash
-npm build
+npm run build
 ```
 
 To view a deployed version of the application visit: [Volga ng Assignment](https://volga-ng-assignment.web.app)
