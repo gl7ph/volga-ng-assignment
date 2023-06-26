@@ -9,6 +9,10 @@ This is solely for the evaluation purposes of Volga Infotech for an available en
 There is both a desktop and mobile UI available for perusal.
 Both perform the same functions but are calibrated for different viewport sizes.
 
+- Angular v16.0.0
+- Ionic Framework v7.0.0
+- Angular Material v16.1.2
+
 ## Installation
 Prerequisites to install this project locally:
 - Node & NPM
