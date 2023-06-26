@@ -58,8 +58,6 @@ export class HomePage implements OnInit {
   }
 
   openModal(isReadonly: Boolean, personnelInfo?: PersonnelInfo) {
-
-    console.log(isReadonly);
     
     this.modal.create({
       component: PersonnelmodalPage,
@@ -74,7 +72,6 @@ export class HomePage implements OnInit {
       modal.present();
       return modal.onDidDismiss();
     }).then(result => {
-      console.log(result);
       this.handleModalResult(result);
     });
 
