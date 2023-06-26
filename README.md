@@ -53,10 +53,22 @@ To serve the application locally:
 npm run start
 ```
 
+or
+
+```bash
+ionic serve
+```
+
 To compile a build:
 
 ```bash
 npm run build
+```
+
+or
+
+```bash
+ionic build
 ```
 
 To view a deployed version of the application visit: [Volga ng Assignment](https://volga-ng-assignment.web.app)
