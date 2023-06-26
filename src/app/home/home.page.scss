@@ -1,27 +1,51 @@
-#container {
+.toolbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.mobile-toolbar-wrapper {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.searchbar-wrapper {
+  width: 30%;
+}
+
+::ng-deep .searchbar-wrapper > ion-searchbar > .searchbar-input-container > .searchbar-input {
+  border-radius: 2em;
+}
+
+::ng-deep .mobile-searchbar-wrapper > ion-searchbar > .searchbar-input-container > .searchbar-input {
+  border-radius: 2em;
+}
+
+/* .content-wrapper {
+
+}
+
+.table-wrapper {
+
+} */
+
+.mat-column-name, .mat-column-email, .mat-column-phone, .mat-column-address, .mat-column-delete, .mat-column-details {
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.mat-mdc-header-row {
+  border-bottom: solid 4px #c1c1c1;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+::ng-deep ion-input > label > .label-text-wrapper > .label-text {
+  color: #3880ff;
 }
 
-#container a {
-  text-decoration: none;
+.card-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5em;
+  margin: 0.5em;
 }
