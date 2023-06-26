@@ -47,7 +47,7 @@ npm install
 ```
 ## Usage
 
-To serve the application locally:
+### To serve the application locally:
 
 ```bash
 npm run start
@@ -59,7 +59,7 @@ or
 ionic serve
 ```
 
-To compile a build:
+### To compile a build:
 
 ```bash
 npm run build
@@ -71,4 +71,6 @@ or
 ionic build
 ```
 
-To view a deployed version of the application visit: [Volga ng Assignment](https://volga-ng-assignment.web.app)
+### To view a deployed version of the application visit:
+
+[Volga ng Assignment](https://volga-ng-assignment.web.app)
